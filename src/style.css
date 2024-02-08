@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: revert !important;
+	list-style-position: inside !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: revert !important;
+	margin: 10px 0 !important;
+}
+
+pre {
+	margin: 10px 0 !important;
+}
+
+p {
+	margin: 10px 0 !important;
+}
